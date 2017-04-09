@@ -12,6 +12,7 @@ WORKDIR /minecraft
 USER root
 
 COPY ./settings-local.sh /minecraft/cfg/settings-local.sh
+COPY ./ic2-fix.zs /minecraft/scripts/ic2-fix.zs
 
 RUN adduser -D minecraft && \
     apk --no-cache add curl wget nano && \
