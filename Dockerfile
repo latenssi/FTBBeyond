@@ -3,7 +3,7 @@ FROM openjdk:alpine
 MAINTAINER Lauri Junkkari
 
 ARG FTB_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBBeyond"
-ARG FTB_VERSION="1_4_2"
+ARG FTB_VERSION="1_5_3"
 ARG SERVER_FILE="FTBBeyondServer.zip"
 ARG SERVER_PORT=25565
 
