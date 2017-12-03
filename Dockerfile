@@ -2,7 +2,7 @@ FROM openjdk:alpine
 
 MAINTAINER Lauri Junkkari
 
-ARG FTB_VERSION="1_5_3"
+ARG FTB_VERSION="1_11_0"
 
 ENV FTB_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBBeyond"
 ENV SERVER_FILE="FTBBeyondServer.zip"
